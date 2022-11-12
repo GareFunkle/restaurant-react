@@ -14,15 +14,15 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">A Propos</h1>
+        <h1 className="headtext__cormorant">À Propos</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Notre Chef vous propose des produits frais, locaux et de qualité. Une
+          grande terrasse vous accueille en été et en hiver tout au long de la
+          journée.
         </p>
         <button type="button" className="custom__button">
-          En Savoir Plus
+          En savoir plus
         </button>
       </div>
       <div className="app__aboutus-content_knife flex__center">
@@ -33,12 +33,13 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Notre Histoire</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Dans un cadre feutré et chaleureux, le Chef Kevin Luo raconte
+          l'histoire culinaire de l’Italie, entre passé et présent, tradition et
+          créativité et s'adonne à son art pour proposer l'excellence de son
+          pays natal.
         </p>
         <button type="button" className="custom__button">
-          En Savoir Plus
+          Découvrir
         </button>
       </div>
     </div>
